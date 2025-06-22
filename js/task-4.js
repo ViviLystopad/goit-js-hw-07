@@ -9,6 +9,8 @@ function handleSubmit(event) {
     };
     if (elements.email.value.trim() === ''|| elements.password.value.trim()=== '') {
         alert('All form fields must be filled in');
-    } else {console.log(info)};
-    form.reset();
+    } else {
+        console.log(info);
+        form.reset();
+    };
 }
